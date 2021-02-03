@@ -81,7 +81,7 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 1);
+/******/ 	return __webpack_require__(__webpack_require__.s = 2);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -14431,10 +14431,10 @@ module.exports = g;
 
 /***/ }),
 
-/***/ "./resources/js/usuario.js":
-/*!*********************************!*\
-  !*** ./resources/js/usuario.js ***!
-  \*********************************/
+/***/ "./resources/js/finca.js":
+/*!*******************************!*\
+  !*** ./resources/js/finca.js ***!
+  \*******************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -14443,14 +14443,14 @@ var _require = __webpack_require__(/*! axios */ "./node_modules/axios/index.js")
 
 window.Vue = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.js");
 var app = new Vue({
-  el: '#usuario',
+  el: '#finca',
   data: {
-    nombre: '',
-    password: '',
-    direccion: '',
-    email: '',
-    marcadores: [],
-    usuarios: []
+    fincas: [],
+    finca: {
+      nombre: '',
+      municipio: '',
+      departamento: ''
+    }
   },
   created: function created() {
     this.traerUsarios();
@@ -14468,22 +14468,36 @@ var app = new Vue({
       window.location.href = "/page?direccion=" + usuario.direccion;
       /* Axios.get('/page')
        .then((res) =>{
-        
-       })*/
+        })*/
+    },
+    agregarFinca: function agregarFinca() {
+      var _this2 = this;
+
+      var fincaNuevo = this.finca;
+      this.finca = {
+        nombre: '',
+        municipio: '',
+        departamento: ''
+      };
+      Axios.post('/enviarfinca', fincaNuevo).then(function (res) {
+        var fincaServidor = res.data;
+
+        _this2.fincas.push(fincaServidor);
+      });
     }
   }
 });
 
 /***/ }),
 
-/***/ 1:
-/*!***************************************!*\
-  !*** multi ./resources/js/usuario.js ***!
-  \***************************************/
+/***/ 2:
+/*!*************************************!*\
+  !*** multi ./resources/js/finca.js ***!
+  \*************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\xampp\htdocs\laravel-map\resources\js\usuario.js */"./resources/js/usuario.js");
+module.exports = __webpack_require__(/*! C:\xampp\htdocs\laravel-map\resources\js\finca.js */"./resources/js/finca.js");
 
 
 /***/ })
