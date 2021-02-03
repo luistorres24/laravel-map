@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateMessagesTable extends Migration
+class CreateFincasTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,10 +13,13 @@ class CreateMessagesTable extends Migration
      */
     public function up()
     {
-        Schema::create('messages', function (Blueprint $table) {
-            $table->increments('id');
-            $table->text('message');
-            $table->integer('user_id')->unsigned();
+        Schema::create('fincas', function (Blueprint $table) {
+            $table->bigIncrements('id');
+            $table->string('nombre');
+            $table->text('municipio');
+            $table->text('departamento');
+
+            $table->bigInteger('user_id')->unsigned();
             $table->foreign('user_id')->references('id')->on('users');
             $table->timestamps();
         });
@@ -29,6 +32,6 @@ class CreateMessagesTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('messages');
+        Schema::dropIfExists('fincas');
     }
 }
