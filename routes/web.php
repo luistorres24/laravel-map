@@ -18,13 +18,24 @@ use Illuminate\Support\Facades\Route;
 
 //Route::get('/hola', 'MessageController@index');
 
-Route::get('/messages', [App\Http\Controllers\MessageController::class, 'fetch'])->middleware('auth');
-Route::post('/messages', [App\Http\Controllers\MessageController::class, 'sentMessage'])->middleware('auth');
 
-Route::get('/', function () {
-    return view('chat');
+Route::get('/hla', function () {
+    return view('home');
 });
+
+
+
+
+
 
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/usuarios', [App\Http\Controllers\PruebaController::class, 'index']);
+
+Route::get('/', function () {
+    return view('auth.register');
+});
+Route::get('/page', function () {
+    return view('mapa');
+});
