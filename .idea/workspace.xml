@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ee67f363-552d-4ad0-8e41-d3160e4985f6" name="Default Changelist" comment="" />
+    <list default="true" id="ee67f363-552d-4ad0-8e41-d3160e4985f6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/chat.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/chat.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mix-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/mix-manifest.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +30,9 @@
         <option value="Vue Single File Component" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -133,6 +146,7 @@
       <path value="$PROJECT_DIR$/vendor/laravel/ui" />
       <path value="$PROJECT_DIR$/vendor/paragonie/sodium_compat" />
       <path value="$PROJECT_DIR$/vendor/pusher/pusher-php-server" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-client-contracts" />
     </include_path>
   </component>
   <component name="ProjectId" id="1hVXyDRTK1tKRMXyWiTWPdF1nht" />
@@ -144,7 +158,14 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/js/components" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -169,6 +190,8 @@
       <workItem from="1600104395485" duration="9657000" />
       <workItem from="1600142001181" duration="4257000" />
       <workItem from="1600182733238" duration="12433000" />
+      <workItem from="1612221457285" duration="6452000" />
+      <workItem from="1612273870304" duration="143000" />
     </task>
     <servers />
   </component>
@@ -176,42 +199,13 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="309" y="46" key="#Inspections" timestamp="1600146862539">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state x="1756" y="86" width="585" height="566" key="find.popup" timestamp="1612226798790">
+      <screen x="1366" y="0" width="1366" height="738" />
     </state>
-    <state x="309" y="46" key="#Inspections/0.0.1366.738@0.0.1366.738" timestamp="1600146862539" />
-    <state x="432" y="157" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600100034927">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state x="1756" y="86" width="585" height="566" key="find.popup/0.0.1366.738/1366.0.1366.738@1366.0.1366.738" timestamp="1612226798790" />
+    <state x="1712" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1612225810344">
+      <screen x="1366" y="0" width="1366" height="738" />
     </state>
-    <state x="432" y="157" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.738/1366.0.1366.738@0.0.1366.738" timestamp="1600100034927" />
-    <state x="413" y="114" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1600108164440">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state x="413" y="114" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.738/1366.0.1366.738@0.0.1366.738" timestamp="1600108164440" />
-    <state width="1322" height="168" key="GridCell.Tab.0.bottom" timestamp="1600099437152">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state width="1322" height="168" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.0.1366.738@0.0.1366.738" timestamp="1600099437152" />
-    <state width="1322" height="168" key="GridCell.Tab.0.center" timestamp="1600099437152">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state width="1322" height="168" key="GridCell.Tab.0.center/0.0.1366.738/1366.0.1366.738@0.0.1366.738" timestamp="1600099437152" />
-    <state width="1322" height="168" key="GridCell.Tab.0.left" timestamp="1600099437152">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state width="1322" height="168" key="GridCell.Tab.0.left/0.0.1366.738/1366.0.1366.738@0.0.1366.738" timestamp="1600099437152" />
-    <state width="1322" height="168" key="GridCell.Tab.0.right" timestamp="1600099437152">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state width="1322" height="168" key="GridCell.Tab.0.right/0.0.1366.738/1366.0.1366.738@0.0.1366.738" timestamp="1600099437152" />
-    <state x="339" y="159" key="run.anything.popup" timestamp="1600107971827">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state x="339" y="159" key="run.anything.popup/0.0.1366.738/1366.0.1366.738@0.0.1366.738" timestamp="1600107971827" />
-    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1600147315869">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1366.738/1366.0.1366.738@0.0.1366.738" timestamp="1600104584969" />
-    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1600147315869" />
+    <state x="1712" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1366.738/1366.0.1366.738@1366.0.1366.738" timestamp="1612225810344" />
   </component>
 </project>
